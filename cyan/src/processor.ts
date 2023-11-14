@@ -66,7 +66,7 @@ function CSharpValues(): CyanGlob[] {
 function PythonValues(): CyanGlob[] {
   return [
     {
-      root: "processor/dotnet",
+      root: "processor/python",
       glob: "**/*.*",
       type: GlobType.Template,
       exclude: [],
