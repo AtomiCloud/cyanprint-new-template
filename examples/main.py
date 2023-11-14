@@ -31,7 +31,7 @@ async def template(i: IInquirer, d: IDeterminism) -> Cyan:
                 files=[
                     CyanGlob(
                         root=".",
-                        glob="**/*.*",
+                        glob="**/*",
                         exclude=["scripts"],
                         type=GlobType.Template
                     ),

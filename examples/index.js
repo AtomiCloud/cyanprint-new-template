@@ -30,7 +30,7 @@ StartTemplateWithLambda(async (i, d) => {
         name: "cyan/default",
         files: [
           {
-            glob: "**/*.*",
+            glob: "**/*",
             type: GlobType.Template,
             exclude: ["scripts", ".github", "cyan.yaml"],
           },

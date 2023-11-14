@@ -66,7 +66,7 @@ export async function PromptTemplate(
           {
             root: "template/common",
             exclude: [],
-            glob: "**/*.*",
+            glob: "**/*",
             type: GlobType.Copy,
           },
           {
@@ -127,7 +127,7 @@ function CSharpValues(
     [
       {
         root: "template/dotnet",
-        glob: "**/*.*",
+        glob: "**/*",
         type: GlobType.Template,
         exclude: [],
       },
@@ -164,7 +164,7 @@ function PythonValues(
     [
       {
         root: "template/python",
-        glob: "**/*.*",
+        glob: "**/*",
         type: GlobType.Template,
         exclude: [],
       },
@@ -200,7 +200,7 @@ function JavascriptValues(
     [
       {
         root: "template/javascript",
-        glob: "**/*.*",
+        glob: "**/*",
         type: GlobType.Template,
         exclude: [],
       },
@@ -236,7 +236,7 @@ function TypescriptValues(
     [
       {
         root: "template/typescript",
-        glob: "**/*.*",
+        glob: "**/*",
         type: GlobType.Template,
         exclude: [],
       },

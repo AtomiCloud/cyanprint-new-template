@@ -28,7 +28,7 @@ export async function PromptPlugin(
           {
             root: "plugin/common",
             exclude: [],
-            glob: "**/*.*",
+            glob: "**/*",
             type: GlobType.Copy,
           },
           {
@@ -56,7 +56,7 @@ function CSharpValues(): CyanGlob[] {
   return [
     {
       root: "plugin/dotnet",
-      glob: "**/*.*",
+      glob: "**/*",
       type: GlobType.Template,
       exclude: [],
     },
@@ -67,7 +67,7 @@ function PythonValues(): CyanGlob[] {
   return [
     {
       root: "plugin/python",
-      glob: "**/*.*",
+      glob: "**/*",
       type: GlobType.Template,
       exclude: [],
     },
@@ -78,7 +78,7 @@ function JavascriptValues(): CyanGlob[] {
   return [
     {
       root: "plugin/javascript",
-      glob: "**/*.*",
+      glob: "**/*",
       type: GlobType.Template,
       exclude: [],
     },
@@ -89,7 +89,7 @@ function TypescriptValues(): CyanGlob[] {
   return [
     {
       root: "plugin/typescript",
-      glob: "**/*.*",
+      glob: "**/*",
       type: GlobType.Template,
       exclude: [],
     },
