@@ -1,8 +1,8 @@
 username: cyan
 name: new
 description: CyanPrint Template to create CyanPrint Templates, Processors or Plugins
-project: https://github.com/AtomiCloud/template.sulfone.typescript
-source: https://github.com/AtomiCloud/template.sulfone.typescript
+project: https://github.com/AtomiCloud/cyanprint-new-template
+source: https://github.com/AtomiCloud/cyanprint-new-template
 email: ernest@atomi.cloud
 tags:
   - default
